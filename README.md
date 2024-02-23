@@ -1,11 +1,20 @@
-## My Project
+## Techniques for analyzing & tagging social media video for optimal targeting and advert placement
 
-TODO: Fill this README out!
+This notebook is designed as accompanying code to the blog post "Techniques for analyzing & tagging social media video for optimal targeting and advert placement". 
 
-Be sure to:
+## Usage
+Ensure you have both the 'blip2' folder and the 'Analysing Video Blog.ipynb' file to run the notebook. 
 
-* Change the title in this README
-* Edit your repository description on GitHub
+The IAM role that you are using to run the notebook will require access to the following services: 
+
+- Amazon SageMaker to deploy and utilise endpoints (.eg. policy AmazonSageMkaerFullAccess)
+- Amazon Transcribe (e.g. policy AmazonTranscribeFullAccess)
+- Amazon Rekognition (e.g. policy AmazonRekogntionFullAccess)
+- Amazon Bedrock (e.g. policy AmazonBedrockFullAccess)
+- An S3 bucket (e.g. a policy that allows actions s3:* on your chosen bucket)
+
+Additionally, you will need to ensure that Anthrophic Claude is enabled in your Amazon Bedrock console under "Model Access". 
+
 
 ## Security
 
