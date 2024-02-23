@@ -11,7 +11,7 @@ The IAM role that you are using to run the notebook will require access to the f
 - Amazon Transcribe (e.g. policy AmazonTranscribeFullAccess)
 - Amazon Rekognition (e.g. policy AmazonRekogntionFullAccess)
 - Amazon Bedrock (e.g. policy AmazonBedrockFullAccess)
-- An S3 bucket (e.g. a policy that allows actions s3:* on your chosen bucket)
+- An S3 bucket (e.g. a policy that allows Read and Write actions on your chosen bucket)
 
 Additionally, you will need to ensure that Anthrophic Claude is enabled in your Amazon Bedrock console under "Model Access". 
 
