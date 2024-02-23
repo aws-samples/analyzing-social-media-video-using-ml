@@ -7,7 +7,7 @@ Ensure you have both the 'blip2' folder and the 'Analysing Video Blog.ipynb' fil
 
 The IAM role that you are using to run the notebook will require access to the following services: 
 
-- Amazon SageMaker to deploy and utilise endpoints (.eg. policy AmazonSageMkaerFullAccess)
+- Amazon SageMaker to deploy and utilise endpoints (.eg. policy AmazonSageMakerFullAccess)
 - Amazon Transcribe (e.g. policy AmazonTranscribeFullAccess)
 - Amazon Rekognition (e.g. policy AmazonRekogntionFullAccess)
 - Amazon Bedrock (e.g. policy AmazonBedrockFullAccess)
