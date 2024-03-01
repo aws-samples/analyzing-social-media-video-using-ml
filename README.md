@@ -5,6 +5,8 @@ This notebook is designed as accompanying code to the blog post "Techniques for 
 ## Usage
 Ensure you have both the 'blip2' folder and the 'Analysing Video Blog.ipynb' file to run the notebook. 
 
+Your environment must have python3, pip and conda installed. 
+
 The IAM role that you are using to run the notebook will require access to the following services: 
 
 - Amazon SageMaker to deploy and utilise endpoints (.eg. policy AmazonSageMakerFullAccess)
