@@ -1,4 +1,4 @@
-## Techniques for analyzing & tagging social media video for optimal targeting and advert placement
+## Analyzing and tagging video for optimal ad targeting and placement
 
 This Jupyter notebook is designed as accompanying code to the blog post "Techniques for analyzing & tagging social media video for optimal targeting and advert placement". 
 
