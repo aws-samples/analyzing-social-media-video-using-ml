@@ -1,10 +1,10 @@
 ## Techniques for analyzing & tagging social media video for optimal targeting and advert placement
 
-This notebook is designed as accompanying code to the blog post "Techniques for analyzing & tagging social media video for optimal targeting and advert placement". 
+This Jupyter notebook is designed as accompanying code to the blog post "Techniques for analyzing & tagging social media video for optimal targeting and advert placement". 
 
 ## Usage
 
-Your environment must have python3, pip and conda installed. 
+Your environment must have python3, pip and conda installed. You will also require an environment that can run Jupyter notebooks, such as Amazon SageMaker Notebooks or JupyterLab. 
 
 The IAM role that you are using to run the notebook will require access to the following services: 
 
